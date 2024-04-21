@@ -1280,6 +1280,8 @@ for p in $p__unique__val__minmax; do
    'p__unique__min__'"$p"'__'"$p__pci" \
    'p__unique__max__'"$p"'__'"$p__pci"
 done
+eval unset \
+   'p__global__pci__'"$p__pci"
 
     p__global__pci=$(printf -- '%s' \
   "$p__global__pci" \
